@@ -19,7 +19,13 @@ const App = () => {
       <Title my="lg">Scheduling Link</Title>
       <Card shadow="sm" bg="gray.0" my="lg" withBorder>
         <List type="ordered">
-          <List.Item>Fork the repository for this page here.</List.Item>
+          <List.Item>
+            Fork the{" "}
+            <Anchor href="https://github.com/brandonarbini/scheduling-link">
+              repository for this page
+            </Anchor>
+            .
+          </List.Item>
           <List.Item>
             In <Code color="teal">app.tsx</Code>, import data from{" "}
             <Code color="teal">data.json</Code>
