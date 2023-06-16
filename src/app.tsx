@@ -59,10 +59,11 @@ const App = () => {
           <Anchor onClick={() => toggle()}>{opened ? "-" : "+"}</Anchor>
         </Text>
         {opened && (
-          <Text>
-            The data in <Code>data.json</Code> is a base64 encoded string broken
-            up into an array. You can just take the elements of the array, join
-            them together, and base64 decode it to get a scheduling link.
+          <Text fz="xs">
+            The data in <Code color="teal">data.json</Code> is a base64 encoded
+            string broken up into an array. You can just take the elements of
+            the array, join them together by hand, and base64 decode it online
+            somewhere to get a scheduling link.
           </Text>
         )}
       </Card>
