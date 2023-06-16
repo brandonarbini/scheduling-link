@@ -17,12 +17,23 @@ const App = () => {
   return (
     <Container>
       <Title my="lg">Scheduling Link</Title>
+      <Text>
+        Hi, welcome! Thank you for taking the time to apply for an engineering
+        role at Webconnex. Apologies for this bit of misdirection, but our
+        application volume is quite high and in an effort to speak with only the
+        most motivated candidates we've devised this little task. We truly look
+        forward to speaking with you!
+      </Text>
       <Card shadow="sm" bg="gray.0" my="lg" withBorder>
         <List type="ordered">
           <List.Item>
             Fork the{" "}
             <Anchor href="https://github.com/brandonarbini/scheduling-link">
               repository for this page
+            </Anchor>{" "}
+            or{" "}
+            <Anchor href="https://github.com/brandonarbini/scheduling-link/archive/refs/heads/main.zip">
+              just download it
             </Anchor>
             .
           </List.Item>
