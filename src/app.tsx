@@ -16,7 +16,7 @@ const App = () => {
   const [opened, { toggle }] = useDisclosure(false);
   return (
     <Container>
-      <Title my="lg">Meeting Link</Title>
+      <Title my="lg">Scheduling Link</Title>
       <Card shadow="sm" bg="gray.0" my="lg" withBorder>
         <List type="ordered">
           <List.Item>Fork the repository for this page here.</List.Item>
